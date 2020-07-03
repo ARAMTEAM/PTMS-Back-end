@@ -1,0 +1,1266 @@
+2020-07-03 10:49:15.368 [main] INFO  com.example.demo2.Demo2Application - Starting Demo2Application on DESKTOP-NHIVVVA with PID 17516 (D:\ARAM\demo2\target\classes started by CrazyDave in D:\ARAM\demo2)
+2020-07-03 10:49:15.371 [main] INFO  com.example.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2020-07-03 10:49:16.859 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-03 10:49:16.860 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-03 10:49:17.083 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 203ms. Found 16 JPA repository interfaces.
+2020-07-03 10:49:17.122 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-03 10:49:17.124 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-03 10:49:17.173 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.AdminDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.174 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.AdminnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ExpectationDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.177 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.FileDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.178 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.JiaowuDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.178 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ProjectDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ProjectnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.180 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.RefreshTokenDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.181 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.SettingDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.182 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.SlogsDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.183 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.184 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentProjectGradeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.184 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentreportDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.185 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TeacherDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.186 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TrainingDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TrainingnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 10:49:17.188 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+2020-07-03 10:49:17.650 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@44c13103' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 10:49:17.654 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 10:49:18.166 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http)
+2020-07-03 10:49:18.189 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8181"]
+2020-07-03 10:49:18.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 10:49:18.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 10:49:18.874 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 10:49:18.875 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3459 ms
+2020-07-03 10:49:19.398 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 10:49:19.425 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-03 10:49:22.151 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-03 10:49:22.222 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-03 10:49:22.296 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-03 10:49:22.512 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-03 10:49:22.666 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-03 10:49:24.466 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-03 10:49:24.998 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3c56495b-ba4b-49aa-9224-1f5d99bb086a
+
+2020-07-03 10:49:25.065 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-03 10:49:25.077 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-03 10:49:25.124 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c9beb51, org.springframework.security.web.context.SecurityContextPersistenceFilter@165614f5, org.springframework.security.web.header.HeaderWriterFilter@1304e0d7, org.springframework.security.web.authentication.logout.LogoutFilter@35fa450f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b0902b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c14e5a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@133aacbe, org.springframework.security.web.session.SessionManagementFilter@71789580, org.springframework.security.web.access.ExceptionTranslationFilter@1537e43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a9b41a0]
+2020-07-03 10:49:25.808 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-07-03 10:49:26.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8181"]
+2020-07-03 10:49:26.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path ''
+2020-07-03 10:49:26.072 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-03 10:49:26.094 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 15 custom documentation plugin(s)
+2020-07-03 10:49:26.145 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.360 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.367 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuAddUsingPOST_1
+2020-07-03 10:49:26.368 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuUpdateUsingPUT_1
+2020-07-03 10:49:26.370 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: StudentAddUsingPOST_1
+2020-07-03 10:49:26.371 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherAddUsingPOST_1
+2020-07-03 10:49:26.373 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherUpdate100GradeUsingPUT_1
+2020-07-03 10:49:26.374 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherUpdate5GradeUsingPUT_1
+2020-07-03 10:49:26.376 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: jiaowuDeleteUsingDELETE_1
+2020-07-03 10:49:26.377 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllItemByProjectIdUsingGET_1
+2020-07-03 10:49:26.379 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listNoProjectStudentUsingGET_1
+2020-07-03 10:49:26.380 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listOneItemByStudentUsingGET_1
+2020-07-03 10:49:26.382 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentReceiveUsingPOST_1
+2020-07-03 10:49:26.384 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentRejectUsingDELETE_1
+2020-07-03 10:49:26.390 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.393 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downloadFileUsingGET_1
+2020-07-03 10:49:26.396 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllReportByStudentIdToStudentUsingGET_1
+2020-07-03 10:49:26.398 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllReportByStudentIdToTeacherUsingGET_1
+2020-07-03 10:49:26.400 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: responseResultUsingDELETE_1
+2020-07-03 10:49:26.401 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentAddReportUsingPOST_1
+2020-07-03 10:49:26.402 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: teacherReadUsingPOST_1
+2020-07-03 10:49:26.407 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.421 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllTraingByJiaowuUsingGET_1
+2020-07-03 10:49:26.436 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.443 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_1
+2020-07-03 10:49:26.444 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_1
+2020-07-03 10:49:26.445 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listByJiaowuIdUsingGET_1
+2020-07-03 10:49:26.446 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_1
+2020-07-03 10:49:26.452 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.464 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.472 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_1
+2020-07-03 10:49:26.476 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.487 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_2
+2020-07-03 10:49:26.492 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.515 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.517 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downloadFileUsingGET_2
+2020-07-03 10:49:26.521 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.526 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_3
+2020-07-03 10:49:26.546 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.553 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addAdminNoticeUsingPOST_1
+2020-07-03 10:49:26.554 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteAdminNoticeUsingDELETE_1
+2020-07-03 10:49:26.555 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: showAdminNoticeUsingGET_1
+2020-07-03 10:49:26.556 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminNoticeUsingPUT_1
+2020-07-03 10:49:26.559 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.568 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.581 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuUpdateUsingPUT_2
+2020-07-03 10:49:26.595 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllTeacherNeedReceiveUsingGET_1
+2020-07-03 10:49:26.603 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_2
+2020-07-03 10:49:26.606 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_2
+2020-07-03 10:49:26.614 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_2
+2020-07-03 10:49:26.621 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 10:49:26.626 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_3
+2020-07-03 10:49:26.627 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_3
+2020-07-03 10:49:26.630 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllnoticeByProjectIdUsingGET_1
+2020-07-03 10:49:26.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllnoticeByStudentIdUsingGET_1
+2020-07-03 10:49:26.634 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_3
+2020-07-03 10:49:26.636 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-07-03 10:49:27.535 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-07-03 10:49:27.544 [main] INFO  com.example.demo2.Demo2Application - Started Demo2Application in 13.221 seconds (JVM running for 15.715)
+2020-07-03 11:03:01.919 [http-nio-8181-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 11:03:01.919 [http-nio-8181-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 11:03:01.925 [http-nio-8181-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-07-03 11:03:02.161 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.AdminServiceImpl - 管理员  sdu001  正在登录
+2020-07-03 11:03:02.389 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.AdminServiceImpl - 验证成功，创建token
+2020-07-03 11:03:02.464 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.AdminServiceImpl - the num of deleteed results is == > 0
+2020-07-03 11:03:02.517 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.AdminServiceImpl - eyJhbGciOiJIUzI1NiJ9.eyJhZG1pbklkIjoic2R1MDAxIiwiZXhwIjoxNTkzNzUyNTgyfQ.6ACXJTQKKgtX_-9a3SLfdBnQvvbAQu6MCefz_q2pTqw
+2020-07-03 11:03:03.978 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.AdminServiceImpl - 管理员  sdu001  登录成功！
+2020-07-03 11:03:05.248 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:05.251 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:03:05.303 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:05.355 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:05.356 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:05.411 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:05.466 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.SlogsServiceImpl - 管理员查看全部日志
+2020-07-03 11:03:05.526 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 申请查询分页教务
+2020-07-03 11:03:08.375 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:08.486 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 申请查询分页教务
+2020-07-03 11:03:10.603 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:10.662 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.AdminnoticeServiceImpl - 正在查询所有管理员公告
+2020-07-03 11:03:12.612 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:03:12.721 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.SlogsServiceImpl - 管理员查看全部日志
+2020-07-03 11:05:50.941 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:05:50.941 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:05:53.490 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:05:53.491 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:06:53.134 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务开始执行退出登录
+2020-07-03 11:06:53.255 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 退出登录成功
+2020-07-03 11:06:53.255 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:06:53.255 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:06:53.255 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:09:49.976 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务ID为:  3032
+2020-07-03 11:09:49.976 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务密码为:  123456
+2020-07-03 11:09:50.119 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务登录成功，开始创建token……
+2020-07-03 11:09:50.195 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - the num of deleteed results is == > 0
+2020-07-03 11:09:50.250 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务3032登录成功!
+2020-07-03 11:09:51.429 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:09:51.483 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:09:51.536 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:09:51.536 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.AdminnoticeServiceImpl - 正在查询所有管理员公告
+2020-07-03 11:09:51.538 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:09:51.538 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:09:51.591 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:09:51.643 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:09:51.657 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:09:51.657 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:09:51.760 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:09:53.319 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:09:53.433 [http-nio-8181-exec-4] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:10:03.069 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:03.124 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:03.124 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:03.179 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:10:03.180 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:10:03.185 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:10:03.235 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:10:03.235 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:10:03.238 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:10:37.174 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:37.221 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:37.282 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:10:37.336 [http-nio-8181-exec-3] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:10:37.394 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:10:43.478 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:43.537 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:43.585 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:10:43.585 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:10:43.645 [http-nio-8181-exec-4] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:10:43.695 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:10:43.695 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:10:45.515 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:45.581 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:10:45.622 [http-nio-8181-exec-9] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:10:45.691 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:10:45.799 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:11:47.204 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:11:47.314 [http-nio-8181-exec-3] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:11:51.639 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:11:51.698 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:11:51.701 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:11:51.754 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:11:51.765 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:11:51.877 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:11:51.877 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:11:51.934 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:11:51.935 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:12:05.075 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:05.185 [http-nio-8181-exec-10] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:12:08.364 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:08.418 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:12:08.423 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:08.473 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:12:08.476 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:08.584 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:12:08.584 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:12:08.639 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:12:08.639 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:12:13.553 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:13.608 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:13.662 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:12:13.718 [http-nio-8181-exec-2] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:12:13.774 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:12:28.363 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:28.471 [http-nio-8181-exec-3] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:12:32.256 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:32.314 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:32.368 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  1  中的所有项目
+2020-07-03 11:12:32.368 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:12:32.368 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:12:32.372 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:32.424 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:12:32.424 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:12:32.483 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:12:36.762 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:36.871 [http-nio-8181-exec-10] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:12:39.345 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:39.398 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:39.453 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:12:39.506 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:12:39.506 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:12:39.506 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:12:39.564 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:12:39.564 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:12:39.564 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:17:28.649 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:17:28.757 [http-nio-8181-exec-9] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:17:30.736 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:17:30.789 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:17:30.790 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  1  中的所有项目
+2020-07-03 11:17:30.849 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:17:30.904 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:17:30.959 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:17:30.959 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:17:31.018 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:17:31.019 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:17:57.938 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:17:58.050 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:17:58.161 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:19:34.556 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:19:34.666 [http-nio-8181-exec-2] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:19:36.756 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:19:36.809 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  1  中的所有项目
+2020-07-03 11:19:36.812 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:19:36.891 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:19:36.924 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:19:36.924 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:19:36.924 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:19:36.981 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:19:36.981 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:25:45.322 [main] INFO  com.example.demo2.Demo2Application - Starting Demo2Application on DESKTOP-NHIVVVA with PID 7308 (D:\ARAM\demo2\target\classes started by CrazyDave in D:\ARAM\demo2)
+2020-07-03 11:25:45.323 [main] INFO  com.example.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2020-07-03 11:25:46.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-03 11:25:46.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-03 11:25:46.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 138ms. Found 16 JPA repository interfaces.
+2020-07-03 11:25:46.569 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-03 11:25:46.570 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-03 11:25:46.603 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.AdminDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.604 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.AdminnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.605 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ExpectationDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.606 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.FileDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.606 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.JiaowuDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.607 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ProjectDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.607 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ProjectnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.608 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.RefreshTokenDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.608 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.SettingDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.609 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.SlogsDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.610 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.611 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentProjectGradeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.611 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentreportDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.612 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TeacherDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.613 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TrainingDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.614 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TrainingnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:25:46.614 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-07-03 11:25:46.964 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@150ede8b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 11:25:46.969 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 11:25:47.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http)
+2020-07-03 11:25:47.247 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8181"]
+2020-07-03 11:25:47.247 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 11:25:47.247 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 11:25:47.420 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 11:25:47.420 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2059 ms
+2020-07-03 11:25:47.602 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 11:25:47.612 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-03 11:25:49.185 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-03 11:25:49.260 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-03 11:25:49.325 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-03 11:25:49.516 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-03 11:25:49.625 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-03 11:25:50.168 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-03 11:25:50.239 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a7c9ad93-8682-49a3-98a4-7deceef07ef1
+
+2020-07-03 11:25:50.335 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68bd8ca7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a3f08b6, org.springframework.security.web.header.HeaderWriterFilter@6a8a551e, org.springframework.security.web.authentication.logout.LogoutFilter@582a3b19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb5ad40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67d8faec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6744707b, org.springframework.security.web.session.SessionManagementFilter@77c66a4f, org.springframework.security.web.access.ExceptionTranslationFilter@4245bf68, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d1c933]
+2020-07-03 11:25:50.417 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-03 11:25:50.429 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-03 11:25:50.681 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-07-03 11:25:50.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8181"]
+2020-07-03 11:25:50.900 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path ''
+2020-07-03 11:25:50.901 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-03 11:25:50.917 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 15 custom documentation plugin(s)
+2020-07-03 11:25:50.962 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.125 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.130 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: GradeOutputUsingGET_1
+2020-07-03 11:25:51.134 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuAddUsingPOST_1
+2020-07-03 11:25:51.135 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuUpdateUsingPUT_1
+2020-07-03 11:25:51.136 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: StudentAddUsingPOST_1
+2020-07-03 11:25:51.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherAddUsingPOST_1
+2020-07-03 11:25:51.138 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherUpdate100GradeUsingPUT_1
+2020-07-03 11:25:51.139 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherUpdate5GradeUsingPUT_1
+2020-07-03 11:25:51.140 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: jiaowuDeleteUsingDELETE_1
+2020-07-03 11:25:51.141 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllItemByProjectIdUsingGET_1
+2020-07-03 11:25:51.142 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listNoProjectStudentUsingGET_1
+2020-07-03 11:25:51.143 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listOneItemByStudentUsingGET_1
+2020-07-03 11:25:51.144 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentReceiveUsingPOST_1
+2020-07-03 11:25:51.145 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentRejectUsingDELETE_1
+2020-07-03 11:25:51.149 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.151 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downloadFileUsingGET_1
+2020-07-03 11:25:51.153 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllReportByStudentIdToStudentUsingGET_1
+2020-07-03 11:25:51.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllReportByStudentIdToTeacherUsingGET_1
+2020-07-03 11:25:51.156 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: responseResultUsingDELETE_1
+2020-07-03 11:25:51.158 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentAddReportUsingPOST_1
+2020-07-03 11:25:51.159 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: teacherReadUsingPOST_1
+2020-07-03 11:25:51.165 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.175 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllTraingByJiaowuUsingGET_1
+2020-07-03 11:25:51.186 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.189 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_1
+2020-07-03 11:25:51.190 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_1
+2020-07-03 11:25:51.191 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listByJiaowuIdUsingGET_1
+2020-07-03 11:25:51.192 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_1
+2020-07-03 11:25:51.195 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.206 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.213 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_1
+2020-07-03 11:25:51.216 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.224 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_2
+2020-07-03 11:25:51.229 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.247 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.248 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downloadFileUsingGET_2
+2020-07-03 11:25:51.251 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.255 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_3
+2020-07-03 11:25:51.265 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.271 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addAdminNoticeUsingPOST_1
+2020-07-03 11:25:51.271 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteAdminNoticeUsingDELETE_1
+2020-07-03 11:25:51.272 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: showAdminNoticeUsingGET_1
+2020-07-03 11:25:51.273 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminNoticeUsingPUT_1
+2020-07-03 11:25:51.276 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.282 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.287 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuUpdateUsingPUT_2
+2020-07-03 11:25:51.294 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllTeacherNeedReceiveUsingGET_1
+2020-07-03 11:25:51.298 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_2
+2020-07-03 11:25:51.299 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_2
+2020-07-03 11:25:51.300 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_2
+2020-07-03 11:25:51.303 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:25:51.306 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_3
+2020-07-03 11:25:51.307 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_3
+2020-07-03 11:25:51.308 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllnoticeByProjectIdUsingGET_1
+2020-07-03 11:25:51.309 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllnoticeByStudentIdUsingGET_1
+2020-07-03 11:25:51.310 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_3
+2020-07-03 11:25:51.310 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-07-03 11:25:52.082 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-07-03 11:25:52.088 [main] INFO  com.example.demo2.Demo2Application - Started Demo2Application in 7.442 seconds (JVM running for 9.055)
+2020-07-03 11:27:33.544 [http-nio-8181-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 11:27:33.544 [http-nio-8181-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 11:27:33.550 [http-nio-8181-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-07-03 11:27:53.184 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:27:53.306 [http-nio-8181-exec-2] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:27:53.413 [http-nio-8181-exec-2] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:27:53.507 [http-nio-8181-exec-2] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:27:54.320 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.AdminServiceImpl - token为空
+2020-07-03 11:27:54.378 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.AdminServiceImpl - 未登录
+2020-07-03 11:27:54.597 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - token为空
+2020-07-03 11:27:54.871 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - token为空
+2020-07-03 11:27:55.152 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - token为空
+2020-07-03 11:27:55.313 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 检查到没有任何用户登录，拒绝访问
+2020-07-03 11:28:41.699 [main] INFO  com.example.demo2.Demo2Application - Starting Demo2Application on DESKTOP-NHIVVVA with PID 18036 (D:\ARAM\demo2\target\classes started by CrazyDave in D:\ARAM\demo2)
+2020-07-03 11:28:41.701 [main] INFO  com.example.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2020-07-03 11:28:42.736 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-03 11:28:42.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-03 11:28:42.882 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 138ms. Found 16 JPA repository interfaces.
+2020-07-03 11:28:42.896 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-03 11:28:42.897 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-03 11:28:42.925 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.AdminDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.AdminnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ExpectationDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.928 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.FileDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.928 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.JiaowuDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.929 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ProjectDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.930 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.ProjectnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.930 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.RefreshTokenDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.931 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.SettingDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.932 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.SlogsDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.932 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.933 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentProjectGradeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.934 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.StudentreportDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.934 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TeacherDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.935 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TrainingDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.936 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo2.dao.TrainingnoticeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-07-03 11:28:42.936 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-07-03 11:28:43.270 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4b3fe06e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 11:28:43.275 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-03 11:28:43.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http)
+2020-07-03 11:28:43.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8181"]
+2020-07-03 11:28:43.519 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-03 11:28:43.519 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-03 11:28:43.678 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-03 11:28:43.678 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1927 ms
+2020-07-03 11:28:43.851 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-03 11:28:43.860 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-03 11:28:45.510 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-03 11:28:45.564 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-03 11:28:45.604 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-03 11:28:45.725 [task-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-03 11:28:45.846 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-07-03 11:28:46.418 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-03 11:28:46.486 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: acbed12c-49ef-4d09-8b1a-65b46cb231da
+
+2020-07-03 11:28:46.526 [task-1] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-03 11:28:46.534 [task-1] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-03 11:28:46.565 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@626c569b, org.springframework.security.web.context.SecurityContextPersistenceFilter@798cf6d2, org.springframework.security.web.header.HeaderWriterFilter@7faa0680, org.springframework.security.web.authentication.logout.LogoutFilter@3404e5c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77c66a4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@632cf7d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@684ce74c, org.springframework.security.web.session.SessionManagementFilter@150fc7a7, org.springframework.security.web.access.ExceptionTranslationFilter@72af90e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d7ceca8]
+2020-07-03 11:28:46.896 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-07-03 11:28:47.085 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8181"]
+2020-07-03 11:28:47.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path ''
+2020-07-03 11:28:47.111 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-07-03 11:28:47.125 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 15 custom documentation plugin(s)
+2020-07-03 11:28:47.168 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.324 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.329 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: GradeOutputUsingGET_1
+2020-07-03 11:28:47.332 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuAddUsingPOST_1
+2020-07-03 11:28:47.333 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuUpdateUsingPUT_1
+2020-07-03 11:28:47.334 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: StudentAddUsingPOST_1
+2020-07-03 11:28:47.335 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherAddUsingPOST_1
+2020-07-03 11:28:47.336 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherUpdate100GradeUsingPUT_1
+2020-07-03 11:28:47.338 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: TeacherUpdate5GradeUsingPUT_1
+2020-07-03 11:28:47.339 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: jiaowuDeleteUsingDELETE_1
+2020-07-03 11:28:47.340 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllItemByProjectIdUsingGET_1
+2020-07-03 11:28:47.341 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listNoProjectStudentUsingGET_1
+2020-07-03 11:28:47.342 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listOneItemByStudentUsingGET_1
+2020-07-03 11:28:47.343 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentReceiveUsingPOST_1
+2020-07-03 11:28:47.344 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentRejectUsingDELETE_1
+2020-07-03 11:28:47.349 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.352 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downloadFileUsingGET_1
+2020-07-03 11:28:47.354 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllReportByStudentIdToStudentUsingGET_1
+2020-07-03 11:28:47.355 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllReportByStudentIdToTeacherUsingGET_1
+2020-07-03 11:28:47.356 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: responseResultUsingDELETE_1
+2020-07-03 11:28:47.357 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: studentAddReportUsingPOST_1
+2020-07-03 11:28:47.358 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: teacherReadUsingPOST_1
+2020-07-03 11:28:47.361 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.372 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllTraingByJiaowuUsingGET_1
+2020-07-03 11:28:47.382 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.385 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_1
+2020-07-03 11:28:47.386 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_1
+2020-07-03 11:28:47.388 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listByJiaowuIdUsingGET_1
+2020-07-03 11:28:47.389 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_1
+2020-07-03 11:28:47.392 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.403 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.410 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_1
+2020-07-03 11:28:47.414 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.422 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_2
+2020-07-03 11:28:47.427 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.443 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.444 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: downloadFileUsingGET_2
+2020-07-03 11:28:47.448 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.454 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_3
+2020-07-03 11:28:47.465 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.471 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addAdminNoticeUsingPOST_1
+2020-07-03 11:28:47.473 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteAdminNoticeUsingDELETE_1
+2020-07-03 11:28:47.473 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: showAdminNoticeUsingGET_1
+2020-07-03 11:28:47.474 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminNoticeUsingPUT_1
+2020-07-03 11:28:47.478 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.483 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.490 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: JiaowuUpdateUsingPUT_2
+2020-07-03 11:28:47.497 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllTeacherNeedReceiveUsingGET_1
+2020-07-03 11:28:47.501 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_2
+2020-07-03 11:28:47.502 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_2
+2020-07-03 11:28:47.504 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_2
+2020-07-03 11:28:47.507 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-07-03 11:28:47.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addNoticeUsingPOST_3
+2020-07-03 11:28:47.510 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteNoticeUsingDELETE_3
+2020-07-03 11:28:47.511 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllnoticeByProjectIdUsingGET_1
+2020-07-03 11:28:47.512 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listAllnoticeByStudentIdUsingGET_1
+2020-07-03 11:28:47.512 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateNoticeUsingPUT_3
+2020-07-03 11:28:47.513 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-07-03 11:28:48.222 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-07-03 11:28:48.229 [main] INFO  com.example.demo2.Demo2Application - Started Demo2Application in 7.218 seconds (JVM running for 8.73)
+2020-07-03 11:29:09.452 [http-nio-8181-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-03 11:29:09.453 [http-nio-8181-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-03 11:29:09.458 [http-nio-8181-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-07-03 11:29:22.387 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务ID为:  3032
+2020-07-03 11:29:22.387 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务密码为:  123456
+2020-07-03 11:29:22.588 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务登录成功，开始创建token……
+2020-07-03 11:29:22.665 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - the num of deleteed results is == > 1
+2020-07-03 11:29:24.211 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务3032登录成功!
+2020-07-03 11:29:38.821 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:29:38.940 [http-nio-8181-exec-4] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:29:39.002 [http-nio-8181-exec-4] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:29:39.092 [http-nio-8181-exec-4] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:30:35.259 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务ID为:  3032
+2020-07-03 11:30:35.259 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务密码为:  123456
+2020-07-03 11:30:35.405 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务登录成功，开始创建token……
+2020-07-03 11:30:35.466 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - the num of deleteed results is == > 1
+2020-07-03 11:30:35.520 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务3032登录成功!
+2020-07-03 11:30:36.883 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:36.925 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:36.977 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:36.978 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:37.035 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:30:37.035 [http-nio-8181-exec-10] INFO  c.e.demo2.services.impl.AdminnoticeServiceImpl - 正在查询所有管理员公告
+2020-07-03 11:30:37.088 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:30:37.088 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:30:37.152 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:30:37.206 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:30:37.207 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:30:38.434 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:38.551 [http-nio-8181-exec-1] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:30:41.272 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:41.368 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:41.384 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:30:41.384 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:30:41.480 [http-nio-8181-exec-4] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:30:41.499 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:30:41.499 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:30:46.573 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:46.880 [http-nio-8181-exec-7] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:30:49.704 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:49.757 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:49.816 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:30:49.841 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:30:49.871 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:30:49.955 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:30:49.955 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:30:50.017 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:30:50.017 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:31:06.566 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:06.621 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:06.674 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:06.734 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:31:06.749 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:06.789 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:31:06.861 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:31:06.861 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:31:06.920 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:31:06.920 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:31:13.637 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:13.690 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:13.743 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:31:13.794 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:31:13.801 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:31:13.905 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:31:13.906 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:31:13.967 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:31:13.967 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:32:09.607 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:09.660 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:09.712 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:32:09.712 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:32:09.747 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:09.771 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:32:09.771 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:32:09.808 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:32:09.870 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:32:28.166 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:28.218 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:32:28.218 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:28.271 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:28.276 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:32:28.331 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:32:28.331 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:32:28.338 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:28.390 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:32:28.390 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:32:31.223 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:31.275 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:31.276 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:32:31.329 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:31.332 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:32:31.380 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:32:31.381 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:32:31.439 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:32:31.439 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:32:35.075 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:35.182 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:32:35.239 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:32:35.294 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:32:46.871 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:46.924 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:46.976 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:32:46.976 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:32:47.013 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:47.030 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:32:47.030 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:32:47.073 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:32:47.133 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:32:48.054 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:48.106 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:48.108 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:32:48.159 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:48.163 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:32:48.267 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:32:48.267 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:32:48.325 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:32:48.325 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:32:50.633 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:50.686 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:50.738 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:32:50.738 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:32:50.739 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:32:50.739 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:32:50.795 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:32:50.795 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:32:50.795 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:33:09.195 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:09.247 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:09.249 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:33:09.303 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:33:09.341 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:09.352 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:33:09.352 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:33:09.406 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:33:09.406 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:33:49.713 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:49.765 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:49.765 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:33:49.826 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:33:49.852 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:49.879 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:33:49.879 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:33:49.934 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:33:49.934 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:33:51.059 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:51.164 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:51.165 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:33:51.165 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:33:51.205 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:33:51.221 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:33:51.221 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:33:51.258 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:33:51.313 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:35:29.214 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:29.269 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:29.355 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:35:29.355 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:35:29.355 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:29.427 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:29.428 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:35:29.428 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:35:29.505 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:35:29.570 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:35:52.161 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:52.217 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:35:52.218 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:52.271 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:35:52.305 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:52.326 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:35:52.326 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:35:52.382 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:35:52.382 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:35:54.633 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:54.745 [http-nio-8181-exec-5] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:35:54.804 [http-nio-8181-exec-5] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:35:54.864 [http-nio-8181-exec-5] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:35:59.405 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:59.458 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:59.515 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:59.567 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:35:59.567 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:35:59.582 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:35:59.623 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:35:59.623 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:35:59.640 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:35:59.698 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:36:07.378 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:07.484 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:36:07.537 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:36:07.594 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:36:29.489 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:29.544 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:29.625 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:29.648 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:36:29.649 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:36:29.682 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:36:29.704 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:36:29.705 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:36:29.744 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:36:35.042 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:35.152 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:36:35.212 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:36:35.271 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:36:56.972 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:57.034 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:57.093 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:36:57.093 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:36:57.133 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:57.178 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:36:57.178 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:36:57.208 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:36:57.283 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:36:59.318 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:59.440 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:59.440 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:36:59.440 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:36:59.510 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:36:59.510 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:36:59.510 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:36:59.510 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:36:59.596 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:37:09.100 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:37:09.206 [http-nio-8181-exec-10] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:37:09.259 [http-nio-8181-exec-10] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:37:09.317 [http-nio-8181-exec-10] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:49:37.543 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.AdminServiceImpl - 管理员  sdu001  正在登录
+2020-07-03 11:49:37.929 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.AdminServiceImpl - 验证成功，创建token
+2020-07-03 11:49:37.961 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.AdminServiceImpl - the num of deleteed results is == > 0
+2020-07-03 11:49:37.962 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.AdminServiceImpl - eyJhbGciOiJIUzI1NiJ9.eyJhZG1pbklkIjoic2R1MDAxIiwiZXhwIjoxNTkzNzU1Mzc3fQ.2S7yEQdoL9QXM5gI0hGTjwA026456c2mf3vyQ76p_NU
+2020-07-03 11:49:37.996 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.AdminServiceImpl - 管理员  sdu001  登录成功！
+2020-07-03 11:49:38.998 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:49:39.029 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:49:39.031 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:49:39.059 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:49:39.098 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:49:39.134 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 申请查询分页教务
+2020-07-03 11:49:39.145 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:49:39.163 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.SlogsServiceImpl - 管理员查看全部日志
+2020-07-03 11:50:51.510 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务开始执行退出登录
+2020-07-03 11:50:51.576 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 退出登录成功
+2020-07-03 11:50:51.576 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:50:51.576 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:50:51.576 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:52:45.510 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.AdminServiceImpl - 管理员  sdu001  正在登录
+2020-07-03 11:52:45.634 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.AdminServiceImpl - 验证成功，创建token
+2020-07-03 11:52:45.675 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.AdminServiceImpl - the num of deleteed results is == > 0
+2020-07-03 11:52:45.675 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.AdminServiceImpl - eyJhbGciOiJIUzI1NiJ9.eyJhZG1pbklkIjoic2R1MDAxIiwiZXhwIjoxNTkzNzU1NTY1fQ.ATdQgXoy955wkYlm8S_DBkfA3owyTqvXPPuAaNmDUvg
+2020-07-03 11:52:45.706 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.AdminServiceImpl - 管理员  sdu001  登录成功！
+2020-07-03 11:52:46.634 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:52:46.654 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:52:46.654 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:52:46.654 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:52:46.657 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:52:46.657 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:52:46.717 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 申请查询分页教务
+2020-07-03 11:52:46.746 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.SlogsServiceImpl - 管理员查看全部日志
+2020-07-03 11:52:58.113 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:52:58.180 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 申请查询分页教务
+2020-07-03 11:53:10.620 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:53:10.650 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.AdminnoticeServiceImpl - 正在查询所有管理员公告
+2020-07-03 11:53:22.057 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:53:22.118 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.SlogsServiceImpl - 管理员查看全部日志
+2020-07-03 11:53:29.710 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:53:29.773 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.SlogsServiceImpl - 管理员查看全部日志
+2020-07-03 11:53:34.182 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:53:34.182 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:53:38.003 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:53:38.004 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.BackupServiceImpl - 开始进行数据库备份******************************
+2020-07-03 11:53:38.124 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.BackupServiceImpl - 校验成功，开始进行备份
+2020-07-03 11:53:46.337 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.BackupServiceImpl - 备份成功！文件存储在:  D:\Backup\_backup\2020-7-3-11_53_33 Backup\2020-7-3-11_53_33 Backup
+2020-07-03 11:53:46.964 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 管理员 ********sdu001
+2020-07-03 11:53:46.964 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.BackupServiceImpl - 查看所有备份列表
+2020-07-03 11:53:53.391 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务开始执行退出登录
+2020-07-03 11:53:53.456 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 退出登录成功
+2020-07-03 11:53:53.456 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:53:53.456 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:53:53.456 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:53:59.204 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务ID为:  3032
+2020-07-03 11:53:59.205 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 登录的教务密码为:  123456
+2020-07-03 11:53:59.323 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务登录成功，开始创建token……
+2020-07-03 11:53:59.355 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - the num of deleteed results is == > 1
+2020-07-03 11:53:59.386 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务3032登录成功!
+2020-07-03 11:54:00.294 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:00.326 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:00.358 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:00.374 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:54:00.390 [http-nio-8181-exec-8] INFO  c.e.demo2.services.impl.AdminnoticeServiceImpl - 正在查询所有管理员公告
+2020-07-03 11:54:00.403 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:54:00.403 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:54:00.414 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:00.440 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:54:00.471 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:54:00.471 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:54:15.584 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:15.614 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:15.644 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:54:15.644 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:54:15.678 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:54:15.678 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:54:15.902 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:15.964 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 教务  3032  正在查询所有待审核的项目
+2020-07-03 11:54:15.999 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:54:23.890 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:23.922 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:23.924 [http-nio-8181-exec-4] INFO  c.e.demo2.services.impl.AdminnoticeServiceImpl - 正在查询所有管理员公告
+2020-07-03 11:54:23.952 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:23.983 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:54:24.013 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:54:24.013 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:54:24.046 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:54:24.078 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:54:24.078 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:54:24.458 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:24.524 [http-nio-8181-exec-5] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:54:38.547 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:38.602 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:38.607 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:54:38.607 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:54:38.622 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:54:38.641 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:54:38.641 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:54:38.656 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  1  中的所有项目
+2020-07-03 11:54:38.722 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:55:11.030 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:11.093 [http-nio-8181-exec-9] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:55:13.260 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:13.288 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:13.323 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:55:13.323 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:55:13.324 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:13.355 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:55:13.355 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:55:13.358 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询出实训  2  中的所有项目
+2020-07-03 11:55:13.391 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:55:15.519 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:15.579 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在导出实训  2  中的成绩
+2020-07-03 11:55:15.611 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验成功
+2020-07-03 11:55:15.643 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 导出成功
+2020-07-03 11:55:41.582 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:41.613 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:41.642 [http-nio-8181-exec-8] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:55:41.672 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:55:41.672 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:55:41.735 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:55:41.735 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:55:48.519 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:48.580 [http-nio-8181-exec-6] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:55:48.598 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:48.633 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 11:55:48.748 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:55:56.293 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:56.357 [http-nio-8181-exec-4] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:55:56.379 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:56.444 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:55:56.444 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:55:56.523 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:55:56.523 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:55:59.173 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:59.211 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:55:59.233 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教务  3032  正在查询自己所有实训中的所有学生
+2020-07-03 11:55:59.276 [http-nio-8181-exec-10] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:55:59.296 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:56:05.271 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:05.311 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:05.339 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:05.343 [http-nio-8181-exec-8] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 教务  3032  正在查询学生  201700300001  的志愿
+2020-07-03 11:56:05.370 [http-nio-8181-exec-2] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 11:56:05.376 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 11:56:05.383 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:05.407 [http-nio-8181-exec-8] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 校验通过
+2020-07-03 11:56:05.408 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:56:05.440 [http-nio-8181-exec-8] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 查询成功
+2020-07-03 11:56:05.461 [http-nio-8181-exec-5] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:56:05.521 [http-nio-8181-exec-2] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 11:56:05.556 [http-nio-8181-exec-2] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询成功
+2020-07-03 11:56:33.743 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:33.778 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:33.842 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:33.842 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 教务  3032  正在查询所有待审核的项目
+2020-07-03 11:56:33.876 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:56:33.912 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:56:33.912 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:56:33.948 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:56:33.948 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:56:48.249 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:48.313 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 教务  3032  正在更新项目  13
+2020-07-03 11:56:48.381 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 检查完成,开始更新
+2020-07-03 11:56:48.385 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 更新成功
+2020-07-03 11:56:48.385 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 
+2020-07-03 11:56:48.385 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 
+2020-07-03 11:56:48.385 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 
+2020-07-03 11:56:49.376 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:49.407 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:49.471 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:56:49.471 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:56:49.504 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:56:49.504 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:56:49.693 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:49.755 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 教务  3032  正在查询所有待审核的项目
+2020-07-03 11:56:49.790 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:56:53.046 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:53.076 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:53.106 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教务  3032  正在查询他管辖的所有教师
+2020-07-03 11:56:53.106 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 校验通过
+2020-07-03 11:56:53.128 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:56:53.138 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:56:53.138 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:56:53.197 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 教务  3032  正在查询所有需答辩的项目
+2020-07-03 11:56:53.234 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:57:04.594 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:04.682 [http-nio-8181-exec-6] INFO  c.example.demo2.services.impl.TrainingServiceImpl - 当前登录的教务ID为    3032
+2020-07-03 11:57:10.753 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:10.781 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:10.815 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 教务  3032  正在查询所有学生的志愿
+2020-07-03 11:57:10.844 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:10.847 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 登录校验通过，查询学生志愿****************
+2020-07-03 11:57:10.911 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在查询实训  1  中的所有不在项目中的学生
+2020-07-03 11:57:10.947 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验完成
+2020-07-03 11:57:10.986 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询成功
+2020-07-03 11:57:27.200 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:27.260 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 教务  3032  正在分配实训  1  的志愿
+2020-07-03 11:57:27.569 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 总条目:  4
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  1(0)  	最大人数  16
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  3(1)  	最大人数  18
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  4(2)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  5(3)  	最大人数  19
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  6(4)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  7(5)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  8(6)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  9(7)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  10(8)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  11(9)  	最大人数  7
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  12(10)  	最大人数  7
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  13(11)  	最大人数  0
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  14(12)  	最大人数  0
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  15(13)  	最大人数  0
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  16(14)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  17(15)  	最大人数  20
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  20(16)  	最大人数  49
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  21(17)  	最大人数  5
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  23(18)  	最大人数  0
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 项目  32(19)  	最大人数  15
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生 201710001021	10(8)	4(2)	12(10)	11(9)	19(0)	结果-1
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生 201710001022	10(8)	4(2)	12(10)	11(9)	19(0)	结果-1
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生 201710001023	11(9)	12(10)	13(11)	14(12)	15(13)	结果-1
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生 201710001024	1(0)	15(13)	12(10)	9(7)	14(12)	结果-1
+2020-07-03 11:57:28.242 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 执行分配算法
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 结果
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 8	2	10	9	0	最终8
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 8	2	10	9	0	最终8
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 9	10	11	12	13	最终9
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 0	13	10	7	12	最终0
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 输出projectData
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 0 行: 16	1	1
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 1 行: 18	0	3
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 2 行: 20	0	4
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 3 行: 19	0	5
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 4 行: 20	0	6
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 5 行: 20	0	7
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 6 行: 20	0	8
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 7 行: 20	0	9
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 8 行: 20	2	10
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 9 行: 7	1	11
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 10 行: 7	0	12
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 11 行: 0	0	13
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 12 行: 0	0	14
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 13 行: 0	0	15
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 14 行: 20	0	16
+2020-07-03 11:57:28.243 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 15 行: 20	0	17
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 16 行: 49	0	20
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 17 行: 5	0	21
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 18 行: 0	0	23
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 第 19 行: 15	0	32
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生  201710001021  的最终志愿为  10
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生  201710001022  的最终志愿为  10
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生  201710001023  的最终志愿为  11
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 学生  201710001024  的最终志愿为  1
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 映射后结果
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 8	2	10	9	0	最终10
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 8	2	10	9	0	最终10
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 9	10	11	12	13	最终11
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 0	13	10	7	12	最终1
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 开始存入数据库
+2020-07-03 11:57:28.244 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - studentId  201710001021  projectId  10
+2020-07-03 11:57:28.287 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - studentId  201710001022  projectId  10
+2020-07-03 11:57:28.319 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - studentId  201710001023  projectId  11
+2020-07-03 11:57:28.350 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - studentId  201710001024  projectId  1
+2020-07-03 11:57:28.383 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 分配完成!
+2020-07-03 11:57:28.383 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 
+2020-07-03 11:57:28.383 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 
+2020-07-03 11:57:28.383 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 
+2020-07-03 11:57:28.383 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 
+2020-07-03 11:57:29.307 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:29.335 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:29.376 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教务 ********3032
+2020-07-03 11:57:29.397 [http-nio-8181-exec-4] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 教务  3032  正在查询实训  1  中的所有不在项目中的学生
+2020-07-03 11:57:29.429 [http-nio-8181-exec-4] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 校验完成
+2020-07-03 11:57:29.442 [http-nio-8181-exec-10] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 教务  3032  正在查询所有学生的志愿
+2020-07-03 11:57:29.461 [http-nio-8181-exec-4] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询成功
+2020-07-03 11:57:29.477 [http-nio-8181-exec-10] INFO  c.e.demo2.services.impl.ExpectationServiceImpl - 登录校验通过，查询学生志愿****************
+2020-07-03 11:57:40.868 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 教务开始执行退出登录
+2020-07-03 11:57:40.934 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 退出登录成功
+2020-07-03 11:57:40.934 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:57:40.935 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:57:40.935 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.JiaowuServiceImpl - 
+2020-07-03 11:57:50.052 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教师  01  正在登录
+2020-07-03 11:57:50.116 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - the num of deleteed results is == > 0
+2020-07-03 11:57:50.149 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教师  01  以初始密码登录成功
+2020-07-03 11:57:50.653 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:57:50.654 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:57:50.868 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:57:50.868 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:57:51.478 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:57:51.508 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:57:51.541 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 11:57:51.643 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:58:02.192 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:58:02.222 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 11:58:02.333 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:58:49.383 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:58:49.383 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:58:50.417 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:58:50.478 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 11:58:50.658 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:59:07.326 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:59:07.488 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:59:07.546 [http-nio-8181-exec-1] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 11:59:07.660 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 11:59:07.660 [http-nio-8181-exec-1] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 11:59:07.729 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:59:11.935 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 11:59:11.935 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:59:13.057 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:59:13.120 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 11:59:13.338 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 11:59:16.257 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:59:16.336 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教师  01  正在查询他名下的所有学生
+2020-07-03 11:59:16.381 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:59:19.416 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 11:59:19.491 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 教师  01  正在查询他名下的所有学生
+2020-07-03 11:59:19.536 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:59:26.865 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教师开始退出登录
+2020-07-03 11:59:26.953 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 退出登录成功
+2020-07-03 11:59:26.953 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:59:26.953 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:59:26.954 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 11:59:38.716 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 学生登录成功，开始创建token……
+2020-07-03 11:59:38.757 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - the num of deleteed results is == > 0
+2020-07-03 11:59:40.071 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 11:59:40.147 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 11:59:40.183 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:59:40.825 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 11:59:40.901 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 11:59:40.941 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 11:59:41.615 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 11:59:41.650 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 11:59:41.723 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 11:59:55.208 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 11:59:55.309 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 学生  201700300001  正在查询所有可以被指定的指导教师
+2020-07-03 11:59:55.350 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:00:10.201 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:00:10.272 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:00:10.308 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:00:10.979 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:00:11.014 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询所有的教师项目
+2020-07-03 12:00:11.093 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:00:37.010 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:00:37.045 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询所有的教师项目
+2020-07-03 12:00:37.122 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:00:52.838 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:00:52.869 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 12:00:52.991 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 12:00:53.025 [http-nio-8181-exec-1] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询成功
+2020-07-03 12:00:53.514 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:00:53.514 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:00:53.711 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:00:53.745 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:00:53.784 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:01:07.575 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:01:07.645 [http-nio-8181-exec-7] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 校验通过
+2020-07-03 12:02:12.767 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:02:12.839 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 校验通过
+2020-07-03 12:02:12.900 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 学生  201700300001  正在下载学生  201700300001  的报告  40
+2020-07-03 12:02:12.900 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 文件名为  201700300001string_2020-7-1_14-25-58_报告_build.pdf
+2020-07-03 12:02:13.034 [http-nio-8181-exec-3] INFO  com.example.demo2.utils.FileUtil -  download success
+2020-07-03 12:02:21.782 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 学生开始执行退出登录
+2020-07-03 12:02:21.848 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 退出登录成功
+2020-07-03 12:02:21.849 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:02:21.849 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:02:21.849 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:03:17.314 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.StudentServiceImpl - 学生登录成功，开始创建token……
+2020-07-03 12:03:17.351 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.StudentServiceImpl - the num of deleteed results is == > 0
+2020-07-03 12:03:18.217 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:03:18.280 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:03:18.312 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:03:18.904 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:03:18.971 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:03:19.004 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:03:19.706 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:03:19.747 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:03:19.821 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:03:20.931 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 学生开始执行退出登录
+2020-07-03 12:03:20.999 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 退出登录成功
+2020-07-03 12:03:20.999 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:03:21.000 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:03:21.000 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:04:04.104 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教师  01  正在登录
+2020-07-03 12:04:04.177 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - the num of deleteed results is == > 0
+2020-07-03 12:04:04.208 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教师  01  以初始密码登录成功
+2020-07-03 12:04:04.825 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:04:04.826 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:04:05.010 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:04:05.010 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:04:05.678 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:05.697 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:05.713 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 12:04:05.824 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:04:06.941 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:04:06.941 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:04:07.569 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:07.599 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 12:04:07.699 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:04:09.871 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:09.902 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:04:09.936 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:09.943 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:09.978 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:04:10.054 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:04:12.097 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:12.127 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:12.127 [http-nio-8181-exec-10] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 12:04:12.195 [http-nio-8181-exec-4] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 教师  01  正在查询学生  201700300001  的所有报告
+2020-07-03 12:04:12.200 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:12.271 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:04:12.293 [http-nio-8181-exec-4] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 检验通过
+2020-07-03 12:04:12.307 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:12.357 [http-nio-8181-exec-10] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 12:04:21.946 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:21.978 [http-nio-8181-exec-6] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:04:22.033 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:22.054 [http-nio-8181-exec-6] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:04:22.069 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:04:22.111 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:23.057 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:04:23.057 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:04:23.952 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:23.987 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 12:04:24.153 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:04:30.494 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:30.525 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:04:30.562 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:30.575 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:30.609 [http-nio-8181-exec-2] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:04:30.682 [http-nio-8181-exec-2] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:04:32.220 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:32.252 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:32.252 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 12:04:32.314 [http-nio-8181-exec-4] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 教师  01  正在查询学生  201700300001  的所有报告
+2020-07-03 12:04:32.320 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:32.395 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:04:32.408 [http-nio-8181-exec-4] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 检验通过
+2020-07-03 12:04:32.432 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:32.469 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 12:04:35.154 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:35.190 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:04:35.222 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:35.222 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:35.258 [http-nio-8181-exec-6] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:04:35.296 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:04:35.296 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:04:35.334 [http-nio-8181-exec-6] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:04:36.267 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:36.306 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 12:04:36.415 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:04:51.462 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:51.499 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 12:04:51.571 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:04:53.665 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:53.698 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询教师  01  的所有项目
+2020-07-03 12:04:53.797 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.ProjectServiceImpl - 查询成功
+2020-07-03 12:04:55.786 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:55.818 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:04:55.849 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:04:55.858 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:04:55.893 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:04:55.966 [http-nio-8181-exec-9] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:05:00.871 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:00.902 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:00.933 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 12:05:00.938 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:05:00.965 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:00.968 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:05:01.055 [http-nio-8181-exec-10] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 教师  01  正在查询学生  201700300001  的所有报告
+2020-07-03 12:05:01.120 [http-nio-8181-exec-7] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 12:05:01.161 [http-nio-8181-exec-10] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 检验通过
+2020-07-03 12:05:14.338 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:14.403 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 校验通过
+2020-07-03 12:05:14.463 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 教师  01  正在下载学生  201700300001  的报告  40
+2020-07-03 12:05:14.526 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 文件名为  201700300001string_2020-7-1_14-25-58_报告_build.pdf
+2020-07-03 12:05:14.630 [http-nio-8181-exec-3] INFO  com.example.demo2.utils.FileUtil -  download success
+2020-07-03 12:05:30.950 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:31.014 [http-nio-8181-exec-6] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 教师  01  正在标记报告  40  为已阅
+2020-07-03 12:05:31.165 [http-nio-8181-exec-6] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 标记成功
+2020-07-03 12:05:36.963 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:05:36.963 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:05:37.350 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:37.381 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:37.413 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 12:05:37.414 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:05:37.440 [http-nio-8181-exec-2] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 教师 ********01
+2020-07-03 12:05:37.446 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:05:37.533 [http-nio-8181-exec-2] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 教师  01  正在查询学生  201700300001  的所有报告
+2020-07-03 12:05:37.604 [http-nio-8181-exec-8] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 12:05:37.645 [http-nio-8181-exec-2] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 检验通过
+2020-07-03 12:30:20.505 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 教师开始退出登录
+2020-07-03 12:30:20.570 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 退出登录成功
+2020-07-03 12:30:20.571 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:30:20.571 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:30:20.571 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:30:31.263 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - 学生登录成功，开始创建token……
+2020-07-03 12:30:31.294 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - the num of deleteed results is == > 0
+2020-07-03 12:30:32.294 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:30:32.356 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:30:32.389 [http-nio-8181-exec-5] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:30:33.010 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:30:33.073 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询学生  201700300001  的信息
+2020-07-03 12:30:33.104 [http-nio-8181-exec-1] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:30:33.684 [http-nio-8181-exec-8] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:30:33.718 [http-nio-8181-exec-8] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询项目  1  的所有公告
+2020-07-03 12:30:33.783 [http-nio-8181-exec-8] INFO  c.e.demo2.services.impl.ProjectnoticeServiceImpl - 查询成功
+2020-07-03 12:30:46.673 [http-nio-8181-exec-4] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:30:46.736 [http-nio-8181-exec-4] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 校验通过
+2020-07-03 12:31:10.784 [http-nio-8181-exec-9] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:31:10.815 [http-nio-8181-exec-9] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询学生  201700300001  的项目情况
+2020-07-03 12:31:10.943 [http-nio-8181-exec-9] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 开始查询
+2020-07-03 12:31:10.975 [http-nio-8181-exec-9] INFO  c.e.d.services.impl.StudentProjectGradeServiceImpl - 查询成功
+2020-07-03 12:31:11.195 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 查询成功
+2020-07-03 12:31:11.195 [http-nio-8181-exec-7] INFO  com.example.demo2.services.impl.TeacherServiceImpl - 
+2020-07-03 12:31:11.633 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:31:11.665 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询项目  1  中的所有学生信息
+2020-07-03 12:31:11.701 [http-nio-8181-exec-10] INFO  com.example.demo2.services.impl.StudentServiceImpl - 查询成功
+2020-07-03 12:31:18.663 [http-nio-8181-exec-3] INFO  com.example.demo2.services.impl.PermissionService - 当前登录用户为: 学生 ********201700300001
+2020-07-03 12:31:18.725 [http-nio-8181-exec-3] INFO  c.e.demo2.services.impl.StudentreportServiceImpl - 校验通过
+2020-07-03 12:32:02.183 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - 学生开始执行退出登录
+2020-07-03 12:32:02.243 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - 退出登录成功
+2020-07-03 12:32:02.243 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:32:02.243 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:32:02.243 [http-nio-8181-exec-6] INFO  com.example.demo2.services.impl.StudentServiceImpl - 
+2020-07-03 12:38:12.943 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-03 12:38:13.068 [lettuce-eventExecutorLoop-1-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /118.31.172.250:6379
+2020-07-03 12:38:14.212 [lettuce-nioEventLoop-4-2] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 118.31.172.250:6379
